@@ -25,7 +25,7 @@ namespace StartDecoder
              
     }
 
-       
+     
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -117,7 +117,7 @@ namespace StartDecoder
                 try
                 {
 
-                    filewriteName = "1_.bin";
+                    filewriteName =  "1_.bin";
                     //string waytosave = folderBrowserDialog1.RootFolder = "D:\";
                     foldername = folderBrowserDialog1.SelectedPath+"\\";
                     textBox2.Text = foldername +"\\"+ filewriteName;
