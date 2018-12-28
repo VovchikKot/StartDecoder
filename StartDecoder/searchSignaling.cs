@@ -20,11 +20,14 @@ namespace StartDecoder
         {
             false, false, false, true,false, true, false, false,false,true,true,true
         });
-        BitArray CorectSequerens = new BitArray(new bool[12]
+        BitArray CorectSequerens_1 = new BitArray(new bool[22]
         {
-            false, false, false, true,false, true, false, false,false,true,true,true
+            true, true, false, true,false, false, false, false,false,true,true,true, false, true, false, false,true, true, true, false,false,false
         });
-
+        BitArray CorectSequerens_2 = new BitArray(new bool[22]
+        {
+            false, false, false, true,false, false, false, false,false,false,false,false, false, false, false, false,false, false, false, false,false,false
+        });
 
     }
 }
